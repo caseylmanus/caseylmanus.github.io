@@ -2,17 +2,10 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+      
 
-      <div class="footer-col  footer-col-2">
+      <div class="footer-col  footer-col-1">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -23,7 +16,7 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.github_username }}</span>
+              <span class="username">Github</span>
             </a>
           </li>
           {% endif %}
@@ -38,7 +31,16 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
+              <span class="username">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/pub/casey-manus/1/4b8/aa0">
+              <span class="icon  icon--twitter">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-128.png" width="16px" />
+              </span>
+
+              <span class="username">Linked In</span>
             </a>
           </li>
           {% endif %}

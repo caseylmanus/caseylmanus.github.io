@@ -2,39 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Casey&#39;s Technology Blog And Projects</title>
-    <description>This is the personal github page for Casey Manus.  I will use this page to showcase personal projects and talk about cool technology.  The opinions and views expressed on this site do not reflect the opinions and views of my employer. 
+    <description>Feel free to contact me.  The opinions on this site do not  reflect the opinions of my employer.
 </description>
     <link>http://caseylmanus.github.io/</link>
     <atom:link href="http://caseylmanus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Nov 2014 11:22:37 -0600</pubDate>
-    <lastBuildDate>Fri, 14 Nov 2014 11:22:37 -0600</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2014 15:45:42 -0600</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2014 15:45:42 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Say Hello!</title>
+        <description>&lt;p&gt;This is the first post to my new blog.  I am going to talk about some of the things I am passionate about in technology, coding, etc.  I will also create pages for my ever growing list of open source projects and code snippets on Github that I am working on.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Here you will find topics on:&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML5, Angular, React.js, Backbone, and Polymer.&lt;/li&gt;
+  &lt;li&gt;Mobile Development&lt;/li&gt;
+  &lt;li&gt;PhoneGap&lt;/li&gt;
+  &lt;li&gt;Scrum and Agile&lt;/li&gt;
+  &lt;li&gt;Node.js&lt;/li&gt;
+  &lt;li&gt;The Go Language&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;nx&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Hi, #{name}&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Tom&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prints&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Tom&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;STDOUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;I am also very &lt;strong&gt;interested&lt;/strong&gt; in machine learning and data science so there will stuff about that, and whatever else strikes my fancy.  &lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Nov 2014 04:28:46 -0600</pubDate>
-        <link>http://caseylmanus.github.io/jekyll/update/2014/11/14/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://caseylmanus.github.io/jekyll/update/2014/11/14/welcome-to-jekyll.html</guid>
+        <link>http://caseylmanus.github.io/2014/11/14/Hello.html</link>
+        <guid isPermaLink="true">http://caseylmanus.github.io/2014/11/14/Hello.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
