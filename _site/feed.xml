@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Casey&#39;s github page</title>
-    <description>This is the personal github page for Casey Manus, I will use this page to showcase personal projects and talk about cool technology.  The opinions and views expressed on this site do not reflect the opinions and views of my employer. 
+    <title>Casey&#39;s Technology Blog And Projects</title>
+    <description>This is the personal github page for Casey Manus.  I will use this page to showcase personal projects and talk about cool technology.  The opinions and views expressed on this site do not reflect the opinions and views of my employer. 
 </description>
     <link>http://caseylmanus.github.io/</link>
     <atom:link href="http://caseylmanus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Nov 2014 10:36:10 -0600</pubDate>
-    <lastBuildDate>Fri, 14 Nov 2014 10:36:10 -0600</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2014 11:07:41 -0600</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2014 11:07:41 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
