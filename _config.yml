@@ -2,10 +2,8 @@
 title: Casey's Technology Blog And Projects
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  This is the personal github page for Casey Manus.  I will
-  use this page to showcase personal projects and talk about
-  cool technology.  The opinions and views expressed on this
-  site do not reflect the opinions and views of my employer. 
+  Feel free to contact me.  The opinions on this site do not 
+  reflect the opinions of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://caseylmanus.github.io" # the base hostname & protocol for your site
 twitter_username: caseymanus
