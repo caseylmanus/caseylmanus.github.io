@@ -2,7 +2,7 @@
 layout: post
 title:  "8 Queens Puzzle in Go (GoLang)"
 date:   2014-11-18 09:19:46
-categories: go, golang, 8queens, algorythms
+categories: golang EightQueensPuzzle
 ---
 
 I am currently in the process of evaluating [GO](http://golang.org), and one of the excersizes I always do when learning a new language is to implement the 8 queens puzzle, which is an old computational exercise to determine how many different combinations of 8 queens can be placed on a Chess board (which is 8 x 8 squares) in positions which they cannot attach each other.  
