@@ -43,7 +43,7 @@ What I wanted
 
 Diving In Head First
 ----
-So I started with the AngularJS documentation, and I reviewed mutiple tutorials and videos. I still just didn't get it.  I finally found a [course](http://campus.codeschool.com/courses/shaping-up-with-angular-js) at CodeSchool that really got me started.  I highly recommend you to through this tutorial.  I also found a great 
+So I started with the AngularJS documentation, and I reviewed mutiple tutorials and videos. I still just didn't get it.  I finally found a [course](http://campus.codeschool.com/courses/shaping-up-with-angular-js) at CodeSchool that really got me started.  I highly recommend you to take this course, it should only take a couple of hours.  I also found a great 
 [blog post](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html) that discusses how eliminating ng-controller from your app, this really clicked for me and got me where I wanted to go.  
 
 AngularJS AH-HA Moment
@@ -56,7 +56,7 @@ AngularJS is **BIG**.  There are a lot of concepts that slap you in the face whe
  * Services and Factories
  * Routes
 
-Know the rest exist, and visit it when it make sense, but don't concern yourself too much with the other things. 
+Know the rest exist, but don't concern yourself too much with the other things in my opinion. 
 
 The Concepts
 -----
