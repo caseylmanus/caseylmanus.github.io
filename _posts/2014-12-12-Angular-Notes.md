@@ -21,7 +21,7 @@ While looking at alternatives I feel in love with [Polymer](http://polymer-proje
 
 What I wanted
 ------
- For whatever I did in my next project, I wanted to get the same component based feel.  I wanted to be able to write custom elements and encapsulate funcionality and behaviors within them, and I wanted my HTML to be expressive of functionality, not just structure.
+ For whatever I did in my next project, I wanted to get the same component based feel as Polymer.  I wanted to be able to write custom elements that encapsulate funcionality and behaviors within them, and I wanted my HTML to be expressive of functionality, not just structure.
 
  For example, if I was building a site similar to Amazon:
 
