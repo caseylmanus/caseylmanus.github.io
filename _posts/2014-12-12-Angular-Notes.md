@@ -17,7 +17,7 @@ A big problem for me was always the fact that Views are almost an afterthought w
 
 A Brief Love Affair
 -----
-While looking at alternatives I feel in love with [Polymer](http://polymer-project.org) and love the potential glimpse into the future of building apps with web components.  There are some big ideas represented here, and it is worth a look. Polymer leverages some concepts such as the proposed HTML web components, shadow-dom and HTML imports. These aren't really available in any major browser outside of Chrome, so Polymer provides a set of polyfils to make it possible to leverage those concepts. Between versions their have been significant breaking changes and there are some clear performance challenges, which rules it out for production use at this time.
+While looking at alternatives I feel in love with [Polymer](http://polymer-project.org) and love the potential glimpse into the future of building apps with web components.  There are some big ideas represented here, and it is worth a look. Polymer leverages some concepts such as the proposed HTML web components, shadow-dom and HTML imports. These aren't really available in any major browser outside of Chrome, so Polymer provides a set of polyfils to make it possible to leverage those concepts. Between versions there have been significant breaking changes and there are some clear performance challenges, which rules it out for production use at this time.
 
 What I wanted
 ------
