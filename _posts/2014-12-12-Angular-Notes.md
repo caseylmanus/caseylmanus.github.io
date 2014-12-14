@@ -44,7 +44,7 @@ What I wanted
 Diving In Head First
 ----
 So I started with the AngularJS documentation, and I reviewed mutiple tutorials and videos. I still just didn't get it.  I finally found a [course](http://campus.codeschool.com/courses/shaping-up-with-angular-js) at CodeSchool that really got me started.  I highly recommend you to take this course, it should only take a couple of hours.  I also found a great 
-[blog post](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html) that discusses how eliminating ng-controller from your app, this really clicked for me and got me where I wanted to go.  
+[blog post](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html) that discusses eliminating ng-controller from your app, this really clicked for me and got me where I wanted to go.  
 
 AngularJS AH-HA Moment
 -----
@@ -68,6 +68,7 @@ Modules
 
 Directives 
 =========
+Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  
 
 Expressions and Filters
 =========
