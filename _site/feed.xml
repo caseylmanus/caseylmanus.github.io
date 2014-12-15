@@ -6,8 +6,8 @@
 </description>
     <link>http://caseylmanus.github.io/</link>
     <atom:link href="http://caseylmanus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2014 08:55:33 -0600</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2014 08:55:33 -0600</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2014 10:39:58 -0600</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2014 10:39:58 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -60,7 +60,9 @@
 &lt;p&gt;Know the rest exist, but don’t concern yourself too much with the other things in my opinion. &lt;/p&gt;
 
 &lt;h1 id=&quot;modules&quot;&gt;Modules&lt;/h1&gt;
-&lt;p&gt;–TODO:&lt;/p&gt;
+&lt;p&gt;An application module is a “namespace” for your code.  Using multiple modules allows you to organize your code into functional areas either by objects of the same type, i.e. “technical slice” or by objects that provides related user facing functionality, i.e “functional slice”.  My preference is to organize your app code by functional slice, but it is not common to have some items that are cross function or utility in nature, so doing those in a technical slice organization isn’t a bad option.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;moduleName&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;arrayOfModuleDepencies&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;secondDependency&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;directives&quot;&gt;Directives&lt;/h1&gt;
 &lt;p&gt;Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  &lt;/p&gt;
@@ -96,7 +98,7 @@ over the Backbone.js way.  You can allow your model to live on the server, or yo
 
 &lt;p&gt;In computer science this problem is most often implemented as nQueens, meaning n Queens on an n x n board.  To read more about the problem see &lt;a href=&quot;http://en.wikipedia.org/wiki/Eight_queens_puzzle&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Implementing this in GO was extremely easy, and fast.  I didn’t do any performance calculations, but compared to previous interations I’ve done in C++, C#, Java, and others this version seems to perform the best.  You can run an example on the &lt;a href=&quot;http://play.golang.org/p/9fJhbkQj8c&quot;&gt;Go Playground&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Implementing this in GO was extremely easy, and fast to implement. You can run an example on the &lt;a href=&quot;http://play.golang.org/p/9fJhbkQj8c&quot;&gt;Go Playground&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the source code on GitHub: &lt;/p&gt;
 
