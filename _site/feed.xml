@@ -6,8 +6,8 @@
 </description>
     <link>http://caseylmanus.github.io/</link>
     <atom:link href="http://caseylmanus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2014 11:38:39 -0600</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2014 11:38:39 -0600</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2014 16:44:07 -0600</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2014 16:44:07 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -62,12 +62,13 @@
 &lt;h1 id=&quot;modules&quot;&gt;Modules&lt;/h1&gt;
 &lt;p&gt;An application module is a “namespace” for your code.  Using multiple modules allows you to organize your code into functional areas either by objects of the same type, i.e. “technical slice” or by objects that provides related user facing functionality, i.e “functional slice”.  My preference is to organize your app code by functional slice, but it is not common to have some items that are cross function or utility in nature, so doing those in a technical slice organization isn’t a bad option.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;moduleName&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;arrayOfModuleDepencies&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;secondDependency&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 &lt;h1 id=&quot;directives&quot;&gt;Directives&lt;/h1&gt;
-&lt;p&gt;Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  &lt;/p&gt;
+&lt;p&gt;Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  You will probably want to use a concrete Controller with your Directives, rather than inlining the controller to make testing possible.&lt;/p&gt;
 
 &lt;h1 id=&quot;expressions-and-filters&quot;&gt;Expressions and Filters&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Expressions:&lt;/strong&gt; are the JavaScript like code snippets that can be embedded into your HTML templates to that will be evalulated by the runtime and replaced with text in the output. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Filters:&lt;/strong&gt; are modifiers to expression output, which can format the outputed data or run other operations such as sorting.  To really understand these, just remember that the output value of the expression is passed or (piped) through the filter before it is outputed.  &lt;/p&gt;
 
 &lt;h1 id=&quot;services-and-factories&quot;&gt;Services and Factories&lt;/h1&gt;
 &lt;p&gt;Services and Factories are the “Model” of your application, or more accurately how you interact with your model.  At first, I was a bit 
@@ -80,13 +81,16 @@ over the Backbone.js way.  You can allow your model to live on the server, or yo
 &lt;p&gt;One thing to remember about AngularJS is that it provides &lt;a href=&quot;http://en.wikipedia.org/wiki/Dependency_injection&quot;&gt;Dependency Injection&lt;/a&gt; to assist with unit testing.  Therefore, all Factories and Services are singleton objects.  With that knowledge it is easy to understand the difference. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Service:&lt;/strong&gt; This is a function provided to your consumer.  Think of these as global functions in a way, but injected into your code so they can be mocked.  &lt;br /&gt;
- &lt;strong&gt;Factory:&lt;/strong&gt; This is an object provided to your consumer, it will be “new’d up” by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. &lt;/p&gt;
+ &lt;strong&gt;Factory:&lt;/strong&gt; This is an object provided to your consumer, it will be instantiated (by using the new keyword) by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. &lt;/p&gt;
 
 &lt;h1 id=&quot;routes&quot;&gt;Routes&lt;/h1&gt;
+&lt;p&gt;Routes are simply bookmarkable URLS using either hashes or HTML5 Push State that trigger the code to change views.  This should be a familiar concept to anybody who was worked with Backbone.js or any other modern client MVC framework.&lt;/p&gt;
 
 &lt;h2 id=&quot;angularjs-20-and-the-future&quot;&gt;AngularJS 2.0 and the future&lt;/h2&gt;
+&lt;p&gt;There has been a lot said regarding the fact that AngularJS 2.0 will not be compatible with 1.x code.  AngularJS seems to be more toward the component model that I prefer and desire, so to me if the cost of that is breaking backwards compatibility then fine.  I also think that if you build your code with the component mindset, i.e. eliminate the use of ng-controller in your markup, you might be able to move your app pretty easily to v2.0. &lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;AngularJS is a great framework that I didn’t give enough credit to.  It can be used to create web components similiar in feel to Polymer and it provides great way to build composable, reusable components that extend the built in capabilities of HTML with your application logic. &lt;/p&gt;
 
 </description>
         <pubDate>Fri, 12 Dec 2014 04:28:46 -0600</pubDate>

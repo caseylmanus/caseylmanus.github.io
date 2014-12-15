@@ -63,17 +63,15 @@ Modules
 ========
 An application module is a "namespace" for your code.  Using multiple modules allows you to organize your code into functional areas either by objects of the same type, i.e. "technical slice" or by objects that provides related user facing functionality, i.e "functional slice".  My preference is to organize your app code by functional slice, but it is not common to have some items that are cross function or utility in nature, so doing those in a technical slice organization isn't a bad option.
 
-{% highlight javascript %}
-var app = angular.module("moduleName", ["arrayOfModuleDepencies", "secondDependency"]);
-{% endhighlight %}
-
-
 Directives 
 =========
-Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  
+Directives are what allows those cool custom HTML elements I discussed earlier.  A directive is the primary building block that everything else enables and services.  Directives can be for custom elements or custom attributes in other HTML elements.  You can even use a custom attribute on a custom element to compose things together.  You will probably want to use a concrete Controller with your Directives, rather than inlining the controller to make testing possible.
 
 Expressions and Filters
 =========
+**Expressions:** are the JavaScript like code snippets that can be embedded into your HTML templates to that will be evalulated by the runtime and replaced with text in the output. <br/>
+
+**Filters:** are modifiers to expression output, which can format the outputed data or run other operations such as sorting.  To really understand these, just remember that the output value of the expression is passed or (piped) through the filter before it is outputed.  
 
 Services and Factories
 =========
@@ -92,12 +90,16 @@ One thing to remember about AngularJS is that it provides [Dependency Injection]
 
 Routes
 =========
+Routes are simply bookmarkable URLS using either hashes or HTML5 Push State that trigger the code to change views.  This should be a familiar concept to anybody who was worked with Backbone.js or any other modern client MVC framework.
 
 AngularJS 2.0 and the future
 -----
+There has been a lot said regarding the fact that AngularJS 2.0 will not be compatible with 1.x code.  AngularJS seems to be more toward the component model that I prefer and desire, so to me if the cost of that is breaking backwards compatibility then fine.  I also think that if you build your code with the component mindset, i.e. eliminate the use of ng-controller in your markup, you might be able to move your app pretty easily to v2.0. 
 
 Conclusion
 -----
+AngularJS is a great framework that I didn't give enough credit to.  It can be used to create web components similiar in feel to Polymer and it provides great way to build composable, reusable components that extend the built in capabilities of HTML with your application logic. 
+
 
 
 
