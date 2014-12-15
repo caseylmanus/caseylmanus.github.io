@@ -87,11 +87,17 @@ What's the difference between a service and factory?
 One thing to remember about AngularJS is that it provides [Dependency Injection](http://en.wikipedia.org/wiki/Dependency_injection) to assist with unit testing.  Therefore, all Factories and Services are singleton objects.  With that knowledge it is easy to understand the difference. 
 
  **Service:** This is a function provided to your consumer.  Think of these as global functions in a way, but injected into your code so they can be mocked.  <br />
- **Factory:** This is an object provided to your consumer, it will be "new'd up" by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. 
+ **Factory:** This is an object provided to your consumer, it will be instantiated (by using the new keyword) by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. 
 
 
 Routes
 =========
+
+AngularJS 2.0 and the future
+-----
+
+Conclusion
+-----
 
 
 

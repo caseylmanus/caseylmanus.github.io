@@ -6,8 +6,8 @@
 </description>
     <link>http://caseylmanus.github.io/</link>
     <atom:link href="http://caseylmanus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2014 10:39:58 -0600</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2014 10:39:58 -0600</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2014 11:38:39 -0600</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2014 11:38:39 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -83,6 +83,10 @@ over the Backbone.js way.  You can allow your model to live on the server, or yo
  &lt;strong&gt;Factory:&lt;/strong&gt; This is an object provided to your consumer, it will be “new’d up” by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. &lt;/p&gt;
 
 &lt;h1 id=&quot;routes&quot;&gt;Routes&lt;/h1&gt;
+
+&lt;h2 id=&quot;angularjs-20-and-the-future&quot;&gt;AngularJS 2.0 and the future&lt;/h2&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 </description>
         <pubDate>Fri, 12 Dec 2014 04:28:46 -0600</pubDate>
