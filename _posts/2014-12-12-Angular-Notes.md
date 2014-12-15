@@ -72,6 +72,18 @@ Expressions and Filters
 
 Services and Factories
 =========
+Services and Factories are the "Model" of your application, or more accurately how you interact with your model.  At first, I was a bit 
+concerned that this was anemic, and not quite workable.  My philosophy shifted a little and I realized that the Angular way was a bit freeing
+over the Backbone.js way.  You can allow your model to live on the server, or you can build a richer model in about anything you want (including Backbone.js) and wrap it with a service or a factory so the rest of you Angular app can interact with it without much problem.  
+
+-----
+What's the difference between a service and factory?
+
+One thing to remember about AngularJS is that it provides [Dependency Injection](http://en.wikipedia.org/wiki/Dependency_injection) to assist with unit testing.  Therefore, all Factories and Services are singleton objects.  With that knowledge it is easy to understand the difference. 
+
+ **Service:** This is a function provided to your consumer.  Think of these as global functions in a way, but injected into your code so they can be mocked.  <br />
+ **Factory:** This is an object provided to your consumer, it will be "new'd up" by the framework prior to injecting it into your code.  This is similar to the factory pattern in any other environment. 
+
 
 Routes
 =========

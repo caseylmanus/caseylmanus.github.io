@@ -9,7 +9,7 @@ I am currently in the process of evaluating [GO](http://golang.org).  One of the
 
 In computer science this problem is most often implemented as nQueens, meaning n Queens on an n x n board.  To read more about the problem see [here](http://en.wikipedia.org/wiki/Eight_queens_puzzle).
 
-Implementing this in GO was extremely easy, and fast.  I didn't do any performance calculations, but compared to previous interations I've done in C++, C#, Java, and others this version seems to perform the best.  You can run an example on the [Go Playground](http://play.golang.org/p/9fJhbkQj8c)
+Implementing this in GO was extremely easy, and fast to implement. You can run an example on the [Go Playground](http://play.golang.org/p/9fJhbkQj8c)
 
 
 Here is the source code on GitHub: 
