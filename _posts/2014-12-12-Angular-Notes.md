@@ -41,12 +41,12 @@ What I wanted
 </site-shell>
 {% endhighlight %}
 
-Diving In Head First
+Finally the AH-HA moment
 ----
 So I started with the AngularJS documentation, and I reviewed mutiple tutorials and videos. I still just didn't get it.  I finally found a [course](http://campus.codeschool.com/courses/shaping-up-with-angular-js) at CodeSchool that really got me started.  I highly recommend you to take this course, it should only take a couple of hours.  I also found a great 
 [blog post](http://teropa.info/blog/2014/10/24/how-ive-improved-my-angular-apps-by-banning-ng-controller.html) that discusses eliminating ng-controller from your app, this really clicked for me and got me where I wanted to go.  
 
-AngularJS AH-HA Moment
+The Concepts
 -----
 AngularJS is **BIG**.  There are a lot of concepts that slap you in the face when you are first looking into it.  The **reality** though, is that there aren't that many you really should care about.  You can build an app that is well structured and elegant with just a few of them: 
 
@@ -58,9 +58,6 @@ AngularJS is **BIG**.  There are a lot of concepts that slap you in the face whe
 
 Know the rest exist, but don't concern yourself too much with the other things in my opinion. 
 
-The Concepts
------
-Here I will go throught he core concepts that make AngularJS awesome an ideal framework for reaching my goals.  
 
 Modules
 ========
