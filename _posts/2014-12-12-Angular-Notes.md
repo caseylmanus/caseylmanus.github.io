@@ -61,7 +61,7 @@ Know the rest exist, but don't concern yourself too much with the other things i
 
 Modules
 ========
---TODO:
+An application module is a "namespace" for your code.  Using multiple modules allows you to organize your code into functional areas either by objects of the same type, i.e. "technical slice" or by objects that provides related user facing functionality, i.e "functional slice".  My preference is to organize your app code by functional slice, but it is not common to have some items that are cross function or utility in nature, so doing those in a technical slice organization isn't a bad option.
 
 Directives 
 =========
