@@ -2,6 +2,5 @@
 published: true
 ---
 
-## A New Post
+##  Current State of Cross Platform Development for Mobile Apps
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
