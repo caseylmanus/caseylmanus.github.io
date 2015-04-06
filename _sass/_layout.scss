@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+    background:black;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -19,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: white
     }
 }
 
@@ -32,7 +33,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: white;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -45,9 +46,9 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        background-color: black;
+        //border: 1px solid $grey-color-light;
+        //border-radius: 5px;
         text-align: right;
 
         .menu-icon {
