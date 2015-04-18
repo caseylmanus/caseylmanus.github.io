@@ -54,7 +54,7 @@ var element  = {
 };
 {% endhighlight %}
 
-Given that data representation, it was a simple matter to write a method to interate over the tree of element meta data
+Given that data representation, it was a simple matter to write a method to iterate recursively over the tree of element meta data
 and write use it in your render method:
 
 {% highlight JavaScript %}
