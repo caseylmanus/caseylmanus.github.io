@@ -76,6 +76,10 @@ render: function(){
 }
 {% endhighlight %}
 
+Here is a complete JSFiddle example:
+
+<iframe width="90%" height="300" src="//jsfiddle.net/caseylmanus/reqotbn8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 I don't think this concept is unique or even complete at this point, but I hope it does reveal a path
 to elegantly working with ReactJS without JSX which others might find useful.  It also gave me really
 good insight into how the JSX compiler works, and how ReactJS works.    
