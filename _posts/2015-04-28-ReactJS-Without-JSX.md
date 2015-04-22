@@ -32,7 +32,7 @@ And that would create the following html:
 For anyone that has looked at the output from the JSX compiler, then the first should be fairly familiar to you,
 and the second is taking advantage of the "React.DOM" helpers provided by the framework.
 
-This is very good, but I find it a little verbose to write without machine assistance (ie, JSX compiling).  So I set out 
+This is ok, but I find it a little verbose to write without machine assistance (ie, JSX compiling).  So I set out 
 to simplifiy it for my own purpose.  What I quickly realized is that the method "React.createElement" takes the following arguments:
 
 * type:  the type of element to create, either a string for an html element, or a ReactJS class.
@@ -55,7 +55,7 @@ var element  = {
 {% endhighlight %}
 
 Given that data representation, it was a simple matter to write a method to iterate recursively over the tree of element meta data
-and write use it in your render method:
+and then use it in your render method:
 
 {% highlight JavaScript %}
 renderTree : function(tree){
@@ -76,7 +76,7 @@ render: function(){
 }
 {% endhighlight %}
 
-I don't this concept is unique or even complete at this point, but I hope it does reveal a path
+I don't think this concept is unique or even complete at this point, but I hope it does reveal a path
 to elegantly working with ReactJS without JSX which others might find useful.  It also gave me really
 good insight into how the JSX compiler works, and how ReactJS works.    
 
@@ -84,7 +84,3 @@ To complete the concept, I would create a ReactJS mixin for the "renderTree" fun
 DSL to make it easy to build and manage the JSON data structure. 
 
 For most use cases, I still feel like JSX is superior.  
-
-And finally, for full entertainment purposes, here is a Login UI using JQuery Mobile and ReactJS without JSX. 
-
-<script src="https://gist.github.com/caseylmanus/dab8cd8f5165c4616869.js"></script>
