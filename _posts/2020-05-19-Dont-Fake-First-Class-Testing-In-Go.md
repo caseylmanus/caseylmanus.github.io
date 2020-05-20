@@ -5,4 +5,7 @@ date:   2020-05-19
 categories: 
 ---
 
-Content Here
+## Pure functions
+
+
+## Structs As Dependency Holder vs Data 
