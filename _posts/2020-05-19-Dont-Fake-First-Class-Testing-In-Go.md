@@ -9,3 +9,6 @@ categories:
 
 
 ## Structs As Dependency Holder vs Data 
+
+
+## Deconstruct Dependencies
