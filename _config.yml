@@ -11,3 +11,5 @@ github_username:  caseylmanus
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-leap-day
