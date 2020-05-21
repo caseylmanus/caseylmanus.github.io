@@ -12,23 +12,8 @@ A language supports `first class` functions if a function can be treated identic
 
 #### Function as method parameter
 
-```Go
-package main
+<script src="https://gist.github.com/caseylmanus/bec2cea25bda834c1f224a5694b66c8a.js"></script>
 
-import "fmt"
-
-func main() {
-   do("hello world", print)
-}
-
-func do(s string, printer func(s string)){
-  printer(s)
-}
-
-func print(s string) {
-	fmt.Println(s)
-}
-```
 [PlayGround Link](https://play.golang.org/p/IYfliwNQonn)
 
 #### Function as return value
