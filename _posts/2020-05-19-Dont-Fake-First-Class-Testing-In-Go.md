@@ -31,7 +31,7 @@ The same code as above, but we've assigned the print function a named type, prev
 #### Function as return value
 
 ```Go
-package main
+package main 
 
 import "fmt"
 
