@@ -30,7 +30,7 @@ The same code as above, but we've assigned the print function a named type, prev
 
 #### Function as return value
 
-```Go
+```
 package main 
 
 import "fmt"
@@ -40,15 +40,13 @@ func main() {
 }
 
 func getPrinter() func(s string) {
-  return print 
+  return func(s string) {
+    fmt.Println(s)
+  } 
 }
 
 func do(s string, printer func(s string)){
   printer(s)
-}
-
-func print(s string) {
-	fmt.Println(s)
 }
 ```
 
