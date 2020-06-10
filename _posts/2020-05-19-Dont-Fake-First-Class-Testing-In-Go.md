@@ -134,8 +134,19 @@ func makeFirstNameRight(p Person) Person {
   p.First = "Casey"
   return p
 }
+```
 
-## Structs As Dependency Holder vs Data 
+### Closures
+
+## Structs, gotta have'm
+
+### Structs As Data Holder 
+
+### Structs As Dependency Holder 
+
+### Deconstruct Dependencies
 
 
-## Deconstruct Dependencies
+## Interfaces, sure but don't abuse
+
+### Alternative to mock libraries/frameworks
