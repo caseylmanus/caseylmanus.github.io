@@ -128,7 +128,9 @@ func makeFirstNameRight(p &Person){
   p.First = "Casey" // only valid first name 
 }
 ```
+
 making that a pure function is still possible; however you need consider the trade-offs for performance to gain this increased testability 
+
 ```
 func makeFirstNameRight(p Person) Person {
   p.First = "Casey"
@@ -146,6 +148,7 @@ func makeFirstNameRight(p Person) Person {
 
 ### Deconstruct Dependencies
 
+#### Testing
 
 ## Interfaces, sure but don't abuse
 
